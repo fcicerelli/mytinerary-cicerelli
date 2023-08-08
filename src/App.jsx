@@ -1,17 +1,10 @@
+import NavBar from "./components/NavBar"
+
 function App() {
 
   return (
     <div className="w-full min-h-screen bg-[#ebebeb] flex flex-col ">
-      <header className="w-[1291px] h-[64px] mx-auto border-2 border-sky-500 flex flex-row justify-between items-center">
-        <h1 className="m-2 font-sans font-bold text-[32px] leading-[42.56px]">My Tinerary</h1>
-        <nav className="m-3">
-          <ul className=" flex flex-row gap-4">
-            <li className="font-bold">Home</li>
-            <li className="font-bold">Cities</li>
-            <li className="font-bold">Login</li>
-          </ul>
-        </nav>
-      </header>
+      <NavBar />
       <main className="m-auto">
         <div className="flex  justify-center items-center w-[1291px] h-[304px]">
           <div className="w-[742px] h-[304px] border-2 border-sky-500 flex flex-col justify-between">
