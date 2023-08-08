@@ -12,7 +12,9 @@ function App() {
             <p className="w-[628px] h-24 font-sans text-2xl text-[#1c1c1c]">Our app will help you find the perfect path for your next trip. With an easy-to-use interface and a host of itinerary options, planning your next trip has never been easier.</p>
             <button className="w-[346px] h-[64px] bg-indigo-600 rounded-lg font-sans text-white text-2xl">View More</button>
           </div>
-          <div className="w-[549px] h-[304px] border-2 border-sky-500">carrusel</div>
+          <div className="w-[549px] h-[304px] border-2 border-sky-500">
+            carrusel
+          </div>
         </div>
       </main>
       
